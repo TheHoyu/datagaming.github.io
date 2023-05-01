@@ -1,0 +1,100 @@
+
+#cabecera{
+	border: 2px solid gray;
+	margin-bottom: 5px;
+}
+
+
+#menu{float: left;
+    background-color: silver;
+    height:100vh;
+    width: 20%;
+    min-width: 80px;
+    max-width: 220px;
+    text-align: center;
+    margin-right: 5px;    
+}
+
+#menu a{background-color: lightgray;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 12px;
+        width: 80%;
+    	min-width: 55px;
+    	max-width: 200px;         
+        text-decoration: none;
+}  
+  
+  #menu a:hover{ background: black;
+                 color:white;
+                 font-size: 15pt;}
+  
+  #menu a:active{ background: red;
+                 color:white;
+                 font-size: 25pt;
+             }
+
+#cuerpo{
+	float: left;
+	width: 65%;
+	margin-left: 5px;
+		
+}
+
+#cuerpo .principal{
+	float: left;
+	width: 90%;
+/*	border: 2px solid black;*/
+/*	margin: 5px;*/
+/*	padding: 8px;*/
+	margin-bottom: 5px;
+}
+#cuerpo .principal img{
+/*	width: 60%;*/
+	height: 200px;
+	
+}
+#cuerpo .secundaria{
+	float: left;
+/*	border: 2px solid black;*/
+/*	margin: 5px;*/
+    margin-bottom: 5px;
+/*	padding: 8px;*/
+	width: 44.75%;
+	min-width: 240px;
+}
+#cuerpo .secundaria img{
+/*	width: 50%;*/
+	height: 100px;
+}
+#cuerpo .contenedor{
+	padding:10px;
+	border: 2px solid black;
+}
+
+#cuerpo .hueco{
+	float: left;
+	width: 0.5%;
+	min-width: 1px;
+}
+
+#banner{
+	margin-left: 85%;
+    background-color: grey;
+    height: 100vh;
+    width:15%;
+    min-width: 0px;
+/*    max-width: 520px;*/
+}
+
+#pie{
+    clear: both;
+    text-align: center;  }
+  
+  #pie a{ margin:15px; 
+      display: block;
+      text-decoration: none;}
