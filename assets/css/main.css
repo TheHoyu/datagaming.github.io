@@ -2,17 +2,36 @@
 #cabecera{
 	border: 2px solid gray;
 	margin-bottom: 5px;
+    z-index: 5;
+    position: relative;
+    background-color: lightslategrey;
+    
 }
 
-
-#menu{float: left;
+#global{
+    position: relative;
+    height: 100%;
+}
+#menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    float: left;
     background-color: silver;
     height:100vh;
-    width: 20%;
+
+    width: 18%;
     min-width: 80px;
     max-width: 220px;
-    text-align: center;
-    margin-right: 5px;    
+    text-align: center;  
+/*    margin-right: 5px;    */
+/*    overflow: auto;*/
+ 
+}
+#menu .cuerpo{
+    margin-top: 120%;
+    
 }
 
 #menu a{background-color: lightgray;
@@ -29,28 +48,34 @@
         text-decoration: none;
 }  
   
-  #menu a:hover{ background: black;
-                 color:white;
-                 font-size: 15pt;}
+#menu a:hover{ background: black;
+        color:white;
+        font-size: 15pt;
+}
   
-  #menu a:active{ background: red;
-                 color:white;
-                 font-size: 25pt;
-             }
+#menu a:active{ background: red;
+        color:white;
+        font-size: 25pt;
+}
+#menu p{
+    position: absolute;
+    bottom: 0;
+}
 
 #cuerpo{
 	float: left;
-	width: 65%;
-	margin-left: 5px;
-		
+	width: 67%;
+	margin-left: 18%;		
 }
 
 #cuerpo .principal{
 	float: left;
-	width: 90%;
+	width: 98%;
 /*	border: 2px solid black;*/
 /*	margin: 5px;*/
 /*	padding: 8px;*/
+    margin-left: 1%;
+    margin-right: 1%;
 	margin-bottom: 5px;
 }
 #cuerpo .principal img{
@@ -64,8 +89,9 @@
 /*	margin: 5px;*/
     margin-bottom: 5px;
 /*	padding: 8px;*/
-	width: 44.75%;
-	min-width: 240px;
+    margin-left: 1%;
+	width: 48.5%;
+	min-width: 262px;
 }
 #cuerpo .secundaria img{
 /*	width: 50%;*/
@@ -76,13 +102,16 @@
 	border: 2px solid black;
 }
 
-#cuerpo .hueco{
+/*#cuerpo .hueco{
 	float: left;
 	width: 0.5%;
 	min-width: 1px;
-}
+}*/
 
 #banner{
+    position: absolute;
+    top: 0;
+    right: 0;
 	margin-left: 85%;
     background-color: grey;
     height: 100vh;
@@ -95,6 +124,6 @@
     clear: both;
     text-align: center;  }
   
-  #pie a{ margin:15px; 
-      display: block;
-      text-decoration: none;}
+#pie a{ margin:15px; 
+    display: block;
+    text-decoration: none;}
