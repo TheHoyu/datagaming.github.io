@@ -67,7 +67,17 @@
 	width: 67%;
 	margin-left: 18%;		
 }
-
+#cuerpo a{
+    text-decoration: none;
+    color: black;
+}
+#cuerpo iframe{
+    padding: 3%;
+    padding-left: 10%;
+}
+#cuerpo span{
+    font-weight: bold;
+}
 #cuerpo .principal{
 	float: left;
 	width: 98%;
@@ -79,8 +89,8 @@
 	margin-bottom: 5px;
 }
 #cuerpo .principal img{
-/*	width: 60%;*/
-	height: 200px;
+	width: 100%;
+	max-height: 300px;
 	
 }
 #cuerpo .secundaria{
@@ -94,8 +104,8 @@
 	min-width: 262px;
 }
 #cuerpo .secundaria img{
-/*	width: 50%;*/
-	height: 100px;
+	width: 100%;
+	height: 150px;
 }
 #cuerpo .contenedor{
 	padding:10px;
@@ -122,8 +132,34 @@
 
 #pie{
     clear: both;
-    text-align: center;  }
+
+    margin-left: 18%;
+    width: 67%;
+}
+#pie .izq{
+    float: left;
+    width: 46.5%;    
+    background-color: grey;
+    padding: 10px;
+    margin-left: 1%;
+    text-align: center;
+
+}
+#pie .izq ol{
+     list-style-type:none;     
+}
+#pie .der{
+    float: left;
+    width: 46.5%;    
+    background-color: lightgray;  
+    text-align: center;
+    padding: 10px;
+}
+#pie .der img{
+    width:40%;
+    padding: 10px;
+}
+
   
-#pie a{ margin:15px; 
-    display: block;
+#pie a{     
     text-decoration: none;}
