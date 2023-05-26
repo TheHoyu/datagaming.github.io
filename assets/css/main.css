@@ -148,6 +148,9 @@
 #pie .izq ol{
      list-style-type:none;     
 }
+#pie .der table{
+    margin: auto;
+}
 #pie .der{
     float: left;
     width: 46.5%;    
@@ -156,7 +159,8 @@
     padding: 10px;
 }
 #pie .der img{
-    width:40%;
+
+    width:50px;
     padding: 10px;
 }
 
