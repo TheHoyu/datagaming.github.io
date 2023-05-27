@@ -20,37 +20,23 @@
     float: left;
     background-color: silver;
     height:100vh;
-
-    width: 18%;
-    min-width: 80px;
-    max-width: 220px;
-    text-align: center;  
-/*    margin-right: 5px;    */
-/*    overflow: auto;*/
- 
+    text-align: center;
 }
-#menu .cuerpo{
-    margin-top: 120%;
-    
-}
-
-#menu a{background-color: lightgray;
-        padding: 5px;
-        border-radius: 10px;
-        border: 2px solid gray;
-        display: block;
-        text-align: center;
-        margin: auto;
-        margin-top: 12px;
-        width: 80%;
-    	min-width: 55px;
-    	max-width: 200px;         
-        text-decoration: none;
-}  
-  
-#menu a:hover{ background: black;
-        color:white;
-        font-size: 15pt;
+#menu a{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;   
+    text-decoration: none;
+}   
+#menu a:hover{ 
+    background: black;
+    color:white;
+    font-size: 15pt;
 }
   
 #menu a:active{ background: red;
@@ -63,9 +49,7 @@
 }
 
 #cuerpo{
-	float: left;
-	width: 67%;
-	margin-left: 18%;		
+    float: left;		
 }
 #cuerpo a{
     text-decoration: none;
@@ -80,18 +64,12 @@
 }
 #cuerpo .principal{
 	float: left;
-	width: 98%;
 /*	border: 2px solid black;*/
 /*	margin: 5px;*/
 /*	padding: 8px;*/
     margin-left: 1%;
     margin-right: 1%;
 	margin-bottom: 5px;
-}
-#cuerpo .principal img{
-	width: 100%;
-	max-height: 300px;
-	
 }
 #cuerpo .secundaria{
 	float: left;
@@ -100,12 +78,6 @@
     margin-bottom: 5px;
 /*	padding: 8px;*/
     margin-left: 1%;
-	width: 48.5%;
-	min-width: 262px;
-}
-#cuerpo .secundaria img{
-	width: 100%;
-	height: 150px;
 }
 #cuerpo .contenedor{
 	padding:10px;
@@ -119,26 +91,14 @@
 }*/
 
 #banner{
-    position: absolute;
-    top: 0;
-    right: 0;
-	margin-left: 85%;
     background-color: grey;
-    height: 100vh;
-    width:15%;
-    min-width: 0px;
-/*    max-width: 520px;*/
 }
 
 #pie{
     clear: both;
-
-    margin-left: 18%;
-    width: 67%;
 }
 #pie .izq{
-    float: left;
-    width: 46.5%;    
+    float: left; 
     background-color: grey;
     padding: 10px;
     margin-left: 1%;
@@ -153,17 +113,75 @@
 }
 #pie .der{
     float: left;
-    width: 46.5%;    
     background-color: lightgray;  
     text-align: center;
+}  
+#pie a{     
+    text-decoration: none;}
+
+
+
+/*=======================================================================================================*/
+
+#menu{
+    width: 18%;
+    min-width: 80px;
+    max-width: 220px;   
+}
+#menu .cuerpo{
+    margin-top: 120%;  
+}
+#menu a{
+        width: 80%;
+        min-width: 55px;
+        max-width: 200px;               
+}
+#cuerpo{  
+    width: 67%;
+    margin-left: 18%;       
+} 
+#cuerpo .principal{   
+    width: 98%;
+}
+#cuerpo .principal img{
+    width: 100%;
+    max-height: 300px;   
+}
+#cuerpo .secundaria{
+    width: 48.5%;
+    min-width: 262px;
+}
+#cuerpo .secundaria img{
+    width: 100%;
+    height: 150px;
+}
+#banner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 85%;
+    height: 100vh;
+    width:15%;
+}
+#pie{
+    margin-left: 18%;
+    width: 67%;
+}
+#pie .izq{    
+    width: 46.5%;    
+}
+#pie .der{
     padding: 10px;
 }
 #pie .der img{
-
     width:50px;
     padding: 10px;
 }
-
-  
-#pie a{     
-    text-decoration: none;}
+#pie .der{
+    width: 46.5%;    
+    padding: 10px;
+}
+#pie .der img{
+    width:50px;
+    padding: 10px;
+}
