@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<script type="text/javascript" src="assets/js/formulario.js" src="assets/js/popup.js"></script>
+	<title></title>
+</head>
+<body>
+
+	<div id="cabecera">
+		<h1 >logo  cabecera y titulo web</h1>
+	</div>
+
+	<div id="global">
+
+	   	<div id="menu">
+	   		<div class="cuerpo">
+		   		<a href="index.html">Home</a> 
+		      	<a href="noticias.html">Noticias</a> 
+		      	<a href="formulario.html">Únete</a>
+		      	<a href="#">Opcion 4</a> 
+		      	<a href="#contacto">Contacta</a>
+		    </div>
+	   	</div>
+  <!-- <div id="global">  -->
+	   	<div id="cuerpo">
+	   		<div  class="principal">
+	   			<div class="contenedor">
+	   				<h2>Únete a nuestra comunidad y recibe descuentos exclusivos. Rellena el formulario y recibiras noticias de los ultimos lanzamientos, codigos de aceso a betas privdas y mucho mas !!</h2>
+	   				<form action="" method="GET" name="miFormulario" id="miFormulario">
+						<fieldset>
+							<legend align="center">**REGISTRO EN <span>DATAGAMING</span>**</legend>
+								<label>Nombre / Nick:*</label>
+								<p><input type="text" name="nombre" id="nombre" size="45" maxlength="150"></p>	
+								<label>Dirección de correo electrónico:*</label>
+								<p><input type="text" name="mail" id="mail" size="30" maxlength="100"></p>	
+								<label>Edad:*</label>
+								<p><input type="text" name="edad" id="edad" size="3" maxlength="2"></p>			
+								<label>Comunicaciones comerciales:</label><br><br>
+								<input type="radio" name="comunicaciones" id="pregunta1" value="codigo">Deseo recibir las ultimas noticias, codigos descuento y ofertas de juegos.<br>
+								<input type="radio" name="comunicaciones" id="pregunta2" value="comercial" checked>Deseo recibir las ultimas noticias, codigos descuento, ofertas de juegos y comunicaciones comerciales de terceros relacionadas con el gaming (infomración sobre lanzamientos y ofertas de todo lo relacionado con el gaming).
+								<br>																			
+						</fieldset>
+								<br>
+								<input type="checkbox" name="condiciones" id="condiciones">
+								<label>He leido y acepto las <a href="javascript:window.open('politicas.html','','width=800,height=400,left=50,top=50,toolbar=yes');void 0"><span>condiciones de uso.</span></a></label>
+								<br><br>
+								<input type="checkbox" name="privacidad" id="privacidad">
+								<label>He leido y acepto las <a href="javascript:window.open('politicas.html','','width=800,height=400,left=50,top=50,toolbar=yes');void 0"><span>politicas de privacidad.</span></a></label>
+								<br><br>
+								<input type="button" value="Registrarse" onclick="validar();">
+								<p>Los campos marchados con * son obligatorios.</p>
+					</form>
+
+	   			</div>  			
+	   		</div>
+	   	</div>
+	   	<div id="banner">
+    		<p>Texto de prueba en el banner muy largo para ver cunato puede ser de ancho</p>    	
+    	</div> 
+	</div>
+
+	<div id="pie">
+    	<div class="izq">   						
+					<ol><p>Más de nosotros</p>
+						<li><a href="">WEb 1 link</a></li>
+						<li><a href="">WEb 2 link</a></li>
+						<li><a href="">WEb 3 link</a></li>
+						<li><a href="">WEb 4 link</a></li>
+					</ol>    		
+    	</div>
+    	
+    	<div class="der">
+    		<table>
+	    		<tr>
+	    			<th colspan="4" id="contacto">Contáctanos</th>
+	    		</tr>
+	    		<tr>
+	    			<td><a href="https://twitter.com/"><img src="images/twitter.png"></a></td>
+	    			<td><a href="https://facebook.com"/><img src="images/Facebook.webp"></a></td>
+	    			<td><a href="https://instagram.com"><img src="images/Instagram.png"></a></td>
+	    			<td><a href="https://www.whatsapp.com"><img src="images/WhatsApp.webp"></a></td>
+	    		</tr>
+	    		<tr>
+	    			<td colspan="4"><a href="mailto:contacto@datagaming.es">contacto@datagaming.es</a></td>
+	    		</tr>
+    		</table>  		
+    	</div>
+  </div>
+
+
+</body>
+</html>
